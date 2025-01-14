@@ -2,10 +2,14 @@ body{
     background-color:green;
     color:white;
 }
-#first{
+#first{ /*For IDs, specific to one thing*/
     color:blue;
     font-weight: bold;
 }
-li.personal{
-    
+li.personal{ /*For classes, can be used for multiple things*/
+    color:red;
+}
+div.header {
+    background-color: lightgreen;
+    color:black;
 }
